@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.softwarica.androidthirdassignment.fragments.AddFragment;
+import com.softwarica.androidthirdassignment.fragments.HomeFragment;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -22,6 +22,11 @@ import com.pawan.esoftwarica.MainActivity;
 import com.pawan.esoftwarica.Model.AddModel;
 import com.pawan.esoftwarica.R;
 import com.pawan.esoftwarica.RecycleView.Softwarica;
+import com.softwarica.androidthirdassignment.MainActivity;
+import com.softwarica.androidthirdassignment.Model.AddModel;
+import com.softwarica.androidthirdassignment.R;
+
+import static androidx.lifecycle.ViewModelProviders.*;
 
 
 /**
@@ -37,7 +42,8 @@ public class AddFragment extends Fragment implements View.OnClickListener, Radio
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        addModel = ViewModelProviders.of(this).get(AddModel.class);
+        addModel = of(this).get(AddModel.class);
+                /*ViewModelProviders.of(this).get(AddModel.class);*/
 
         View view = inflater.inflate(R.layout.fragment_add, container, false);
 

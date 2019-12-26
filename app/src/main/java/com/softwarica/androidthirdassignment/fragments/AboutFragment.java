@@ -14,6 +14,8 @@ import android.webkit.WebViewClient;
 
 import com.pawan.esoftwarica.Model.AboutModel;
 import com.pawan.esoftwarica.R;
+import com.softwarica.androidthirdassignment.Model.AboutModel;
+import com.softwarica.androidthirdassignment.R;
 
 /**
  * A simple {@link Fragment} subclass.
