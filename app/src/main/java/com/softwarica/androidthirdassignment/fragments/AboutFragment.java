@@ -1,4 +1,5 @@
-package com.softwarica.androidthirdassignment;
+package com.softwarica.androidthirdassignment.fragments;
+
 
 import android.os.Bundle;
 
