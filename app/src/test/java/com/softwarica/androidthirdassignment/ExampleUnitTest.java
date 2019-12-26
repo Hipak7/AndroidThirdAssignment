@@ -1,4 +1,4 @@
-package com.softwarica.anndroidthirdassignment;
+package com.softwarica.androidthirdassignment;
 
 import org.junit.Test;
 
